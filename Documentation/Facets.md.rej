@@ -1,0 +1,9 @@
+diff a/Documentation/Facets.md b/Documentation/Facets.md	(rejected hunks)
+@@ -37,6 +37,7 @@
+   Console.WriteLine("{0}: {1}", facet.Key, facet.Value);
+ }
+ ```
++This is commit in other branch -- bharath - 2nd commit - temp
+ ### Date facets
+ Date facet queries create facets from date ranges. Sample code:
+ 

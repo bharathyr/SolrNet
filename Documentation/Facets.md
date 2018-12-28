@@ -37,7 +37,7 @@ foreach (var facet in r.FacetFields["category"]) {
   Console.WriteLine("{0}: {1}", facet.Key, facet.Value);
 }
 ```
-This is commit in other branch -- bharath - 2nd commit
+This is commit in other branch -- bharath - 2nd commit - temp
 ### Date facets
 Date facet queries create facets from date ranges. Sample code:
 
@@ -59,7 +59,7 @@ foreach (KeyValuePair<DateTime, int> dr in dateFacetResult.DateResults) {
     Console.WriteLine(dr.Value);
 }
 ```
-
+link 2 - test
 ### Arbitrary facet queries
 Arbitrary facet queries are handled by the `SolrFacetQuery` class. Results are available through the `FacetQueries` property.
 

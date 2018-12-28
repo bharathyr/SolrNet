@@ -37,7 +37,7 @@ foreach (var facet in r.FacetFields["category"]) {
   Console.WriteLine("{0}: {1}", facet.Key, facet.Value);
 }
 ```
-
+This is commit in other branch -- bharath - 2nd commit
 ### Date facets
 Date facet queries create facets from date ranges. Sample code:
 
